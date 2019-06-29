@@ -1,8 +1,8 @@
 Ansible Role <Role>
 =========
-[![Galaxy Role](<role-shield-link)](<role-link>)
-[![Downloads](<downloads-shield-link>)](<role-link>)
-[![Build Status](<build-shield-link>)](<role-link>)
+[![Galaxy Role](*role-shield-link*)](--role-link--)
+[![Downloads](*downloads-shield-link*)](--role-link--)
+[![Build Status](*build-shield-link*)](--role-link--)
 
 **Table of Contents**
   - [Supported Platforms](#supported-platforms)
