@@ -4,7 +4,7 @@ galaxy_info:
   author: Ahmad Wilson
   role_name: <role>
   description: <description>
-  company: "O1 Labs"
+  company: "O1.IO"
   license: license (Apache, BSD, MIT)
   min_ansible_version: 2.6
   platforms:
