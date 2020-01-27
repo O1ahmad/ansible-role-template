@@ -3,6 +3,7 @@ Ansible Role <Role>
 [![Galaxy Role](*role-shield-link*)](--role-link--)
 [![Downloads](*downloads-shield-link*)](--role-link--)
 [![Build Status](*build-shield-link*)](--role-link--)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Table of Contents**
   - [Supported Platforms](#supported-platforms)
@@ -73,7 +74,7 @@ default example:
 License
 -------
 
-Apache, BSD, MIT
+MIT
 
 Author Information
 ------------------
