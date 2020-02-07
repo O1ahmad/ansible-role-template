@@ -12,22 +12,14 @@ New GitHub issues can be [opened](https://github.com/0x0I/ansible-role-template/
 
 Reference the following issue reporting guide for more details:
 
-#### Type of Issue and Issue State
+#### Issue Types
 
 | Issue Type | Description |
 | --- | --- |
-| `enhancement` | Feature requests. |
-| `bug` | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| `feedback` | General feedback more than bug reports or feature requests. |
-| `help-wanted` | The Atom core team would appreciate help from the community in resolving these issues. |
-| `beginner` | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
-| `more-information-needed` | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
-| `needs-reproduction` | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | Issues blocked on other issues. |
-| `duplicate` | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | The Atom core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `invalid` | Issues which aren't valid (e.g. user errors). |
+| :arrow_up: `:enhancement:` | Feature requests. |
+| :bug: `:bug:` | Confirmed bugs or reports that are very likely to be bugs. |
+| :question: `question` | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| :eyeglasses::heartpulse:`feedback` | General feedback more than bug reports or feature requests. |
 
 ## Workflow and backlog
 
