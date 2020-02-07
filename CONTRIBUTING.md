@@ -19,7 +19,7 @@ Reference the following issue reporting guide for more details:
 | :arrow_up: `:enhancement:` | Feature requests. |
 | :bug: `:bug:` | Confirmed bugs or reports that are very likely to be bugs. |
 | :question: `:question:` | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| :eyeglasses: :heartpulse:`feedback` | General feedback more than bug reports or feature requests. |
+| :eyeglasses: :heartpulse:`:feedback:` | General feedback more than bug reports or feature requests. |
 
 ## Workflow and backlog
 
