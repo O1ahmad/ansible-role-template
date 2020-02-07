@@ -6,6 +6,13 @@ The following is a set of guidelines for contributing to 0x0I Ansible roles, whi
 
 For general information and guidelines for contributing to these roles and the Ansible community, see the [community page](https://docs.ansible.com/ansible/latest/community/).
 
+**Table of Contents**
+  - [Issues](#issues)
+      - [Issue Types](#issue-types)
+  - [Workflow and backlog](#workflow-and-backlog)
+  - [Pull Requests](#pull-requests)
+  - [Code of Conduct](#code-of-conduct)
+
 ## Issues
 
 New GitHub issues can be [opened](https://github.com/0x0I/ansible-role-template/issues/new) and [tracked](https://github.com/0x0I/ansible-role-template/issues) in a similar fashion as with most Github repositories by making use of the standard Github issue management facilities.
