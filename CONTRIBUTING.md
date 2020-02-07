@@ -31,4 +31,4 @@ This repository encourages [PRs](https://github.com/0x0I/ansible-role-template/p
 
 ## Code of Conduct
 
-We use the [Ansible Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html)
+See the [Ansible Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html).
