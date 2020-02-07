@@ -18,14 +18,16 @@ For general information and guidelines for contributing to these roles and the A
 
 This repository encourages [PRs](https://github.com/0x0I/ansible-role-template/pulls) and provides the following guidelines and CI pipeline for validating role functionality and avoiding regressions:
 
+**Note:** to download and install dependencies, execute `bundle install` at project root. A working installation of Ruby is required.
+
 #### CI Pipeline
 
-| Test | Description |
-| --- | --- |
-| :zap: `yamllint` | Validates `yaml` adheres to coding standards and best practices as [configured](https://github.com/0x0I/ansible-role-template/blob/master/test/lint/yaml-lint.yml). |
-| :zap: `ansible-lint` | Validates ansible module and construct usage adheres to Ansible standards and practices as [configured](https://github.com/0x0I/ansible-role-template/blob/master/test/lint/.ansible-lint). |
-| :wrench: `integration testing` | utilizing Chef's [test-kitchen](https://docs.chef.io/kitchen.html) framework and the [kitchen-ansible](https://github.com/neillturner/kitchen-ansible) provisioner, integration testing of this role is organized according to the various provisioning phases and should be executed prior to PR submission to validate new modifications and identify/prevent regressions. |
-| :traffic_light: `Continuous Integration (CI)` | Automatic E2E testing of this role is accomplished leveraging the [Travis-CI](https://travis-ci.com/0x0I/ansible-role-template) test infrastructure platform and is executed on each pull request. Requests should not be merged unless all tests pass or the community approves otherwise. |
+| Test | Description | Dependencies | Validation Command |
+| --- | --- | --- | --- |
+| :zap: `yamllint` | Validates `yaml` adheres to coding standards and best practices as [configured](https://github.com/0x0I/ansible-role-template/blob/master/test/lint/yaml-lint.yml). | [yamllint](https://yamllint.readthedocs.io/en/stable/) (python package) | `yamllint --config-file ./test/lint/yaml-lint.yml .` |
+| :zap: `ansible-lint` | Validates ansible module and construct usage adheres to Ansible standards and practices as [configured](https://github.com/0x0I/ansible-role-template/blob/master/test/lint/.ansible-lint). | [ansible-lint](https://docs.ansible.com/ansible-lint/) (python package) | `ansible-lint -c ./test/lint/.ansible-lint .` |
+| :wrench: `integration testing` | utilizing Chef's [test-kitchen](https://docs.chef.io/kitchen.html) framework and the [kitchen-ansible](https://github.com/neillturner/kitchen-ansible) provisioner, integration testing of this role is organized according to the various provisioning phases and should be executed prior to PR submission to validate new modifications and identify/prevent regressions. | [test-kitchen](https://github.com/test-kitchen/test-kitchen#test-kitchen) (Ruby gem) | `kitchen test uninstall` |
+| :traffic_light: `Continuous Integration (CI)` | Automatic E2E testing of this role is accomplished leveraging the [Travis-CI](https://travis-ci.com/0x0I/ansible-role-template) test infrastructure platform and is executed on each pull request. Requests should not be merged unless all tests pass or the community approves otherwise. | *N/A* | *see* [.travis.yml](https://github.com/0x0I/ansible-role-template/blob/master/.travis.yml) for additional details |
 
 ## Issues
 
