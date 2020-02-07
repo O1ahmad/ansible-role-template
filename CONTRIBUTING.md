@@ -4,7 +4,7 @@
 
 The following is a set of guidelines for contributing to 0x0I Ansible roles, which are hosted in the [0x0I](https://github.com/0x0I?tab=repositories) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-For general information and guidelines for contributing to these roles and the Ansible community, see the [community page](https://docs.ansible.com/ansible/latest/community/)
+For general information and guidelines for contributing to these roles and the Ansible community, see the [community page](https://docs.ansible.com/ansible/latest/community/).
 
 ## Issues
 
@@ -18,8 +18,8 @@ Reference the following issue reporting guide for more details:
 | --- | --- |
 | :arrow_up: `:enhancement:` | Feature requests. |
 | :bug: `:bug:` | Confirmed bugs or reports that are very likely to be bugs. |
-| :question: `question` | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| :eyeglasses::heartpulse:`feedback` | General feedback more than bug reports or feature requests. |
+| :question: `:question:` | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| :eyeglasses: :heartpulse:`feedback` | General feedback more than bug reports or feature requests. |
 
 ## Workflow and backlog
 
