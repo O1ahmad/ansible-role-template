@@ -16,7 +16,7 @@ For general information and guidelines for contributing to these roles and the A
 
 ## Pull Requests
 
-This repository encourages [PRs](https://github.com/0x0I/ansible-role-template/pulls) and provides the following guidelines and CI pipeline for validating role functionality and avoiding regressions:
+All [PRs](https://github.com/0x0I/ansible-role-template/pulls) are welcome! :+1: The following guidelines and CI pipeline are provided for validating role functionality and avoiding regressions for each submitted request:
 
 **Note:** to download and install dependencies, execute `bundle install` at project root. A working installation of Ruby is required.
 
