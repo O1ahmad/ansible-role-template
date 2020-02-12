@@ -1,9 +1,10 @@
 Ansible Role <Role>
 =========
 [![Galaxy Role](*role-shield-link*)](--role-link--)
+[![GitHub release (latest by date)](==role-link--)
 [![Downloads](*downloads-shield-link*)](--role-link--)
 [![Build Status](*build-shield-link*)](--role-link--)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
 
 **Table of Contents**
   - [Supported Platforms](#supported-platforms)
