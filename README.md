@@ -68,7 +68,7 @@ default example:
 ```
 - hosts: all
   roles:
-  - role: 0xOI.<role>
+  - role: 0x0I.<role>
 ```
 
 License
