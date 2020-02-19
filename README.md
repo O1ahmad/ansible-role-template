@@ -1,4 +1,6 @@
-Ansible Role <Role>
+<p><img src="https://i.imgur.com/IBNz2CM.jpg" alt="0xO1 logo" title="0xO1" align="right" height="80" /></p>
+
+Ansible Role :zero::one: {Role}
 =========
 [![Galaxy Role](*role-shield-link*)](--role-link--)
 [![GitHub release (latest by date)](==role-link--)
