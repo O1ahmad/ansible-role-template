@@ -4,12 +4,6 @@
 Ansible Role :zero::one: {Role}
 =========
 [![Galaxy Role](*role-shield-link*)](--role-link--)
-[![GitHub release (latest by date)](==role-link--)
-[![Downloads](*downloads-shield-link*)](--role-link--)
-[![Build Status](*build-shield-link*)](--role-link--)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
-
-[![Galaxy Role](*role-shield-link*)](--role-link--)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/0x0I/ansible-role-template?color=yellow)
 [![Downloads](*downloads-shield-link*)](--role-link--)
 [![Build Status](https://travis-ci.org/0x0I/ansible-role-template.svg?branch=master)](https://travis-ci.org/0x0I/ansible-role-template)
